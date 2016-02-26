@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "Qiita::Team oldest article notice",
+  "version": "1.0",
+  "description": "notice qiita:team oldest article",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://*.qiita.com/*/items/*"
+      ],
+      "css": ["/css/mystyle.css"],
+      "js": ["/js/lib/jquery.min.js", "/js/myscript.js"]
+    }
+  ],
+  "permissions": [
+    "tabs",
+    "https://*.qiita.com/*/items/*"
+  ],
+  "icons" : {
+    "128": "/img/icon.png"
+  }
+}
