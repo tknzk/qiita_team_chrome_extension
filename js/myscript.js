@@ -6,6 +6,6 @@ var diff_day = diff / 86400000;
 console.log(diff_day);
 if (diff_day > 365) {
   var div = $(".teamArticle_header_titleContainer");
-  var message = '<div class="box oldest_article">この記事は1年以上前にかかれた記事です</div>'
+  var message = '<div class="box oldest_article">この記事は作成から1年以上経過しています</div>'
   div.after(message)
 }

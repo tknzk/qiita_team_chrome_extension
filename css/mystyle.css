@@ -1,11 +1,12 @@
 div .oldest_article {
-  background-color: #fcf8e3;
-  border-color: #faebcc;
-  color: #8a6d3b;
+  background-color: #f2dede;
+  border-color: #ebccd1;
+  color: #a94442;
 }
 div .box {
   padding: 15px;
-  margin-bottom: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   border: 1px solid;
   border-radius: 3px;
 }
